@@ -110,7 +110,7 @@ class _MyAppState extends State<MyApp> {
     PolylineResult result = await polylinePoints.getRouteBetweenCoordinates(
         //TODO: if the first five letters of the key is used as keyId for an account how many user accounts are possible and how many
         // keys can be generated for an account?
-        'AIzaSyDj9eUJPu8So9CxegtD9DZlq-CWYEz35Ww',
+        '',
         PointLatLng(startLat, startLong),
         PointLatLng(destLat, destLong),
         travelMode: TravelMode.driving, optimizeWaypoints: true);
